@@ -1,3 +1,6 @@
-footer {
-  color: rgb(14, 115, 204);
+#bottom {
+  background-color: rgb(114, 114, 114);
+}
+.info {
+  color: rgb(234, 136, 136);
 }
