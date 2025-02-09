@@ -4,3 +4,7 @@
 .info {
   color: rgb(234, 136, 136);
 }
+button {
+  color: rgb(255, 3, 3);
+  background-color: aliceblue;
+}
