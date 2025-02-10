@@ -5,7 +5,7 @@
   border-radius: 100%;
 }
 .Image {
-  width: 100%;
+  border: 100px;
 }
 .Title {
   color: rgb(222, 44, 17);
