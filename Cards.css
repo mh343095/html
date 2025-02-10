@@ -1,0 +1,12 @@
+* {
+  background-color: rgb(212, 239, 201);
+}
+.Cards {
+  border-radius: 100%;
+}
+.Image {
+  width: 100%;
+}
+.Title {
+  color: rgb(222, 44, 17);
+}
