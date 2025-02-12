@@ -2,12 +2,14 @@
   background-color: rgb(212, 239, 201);
 }
 .Cards {
-  border-radius: 100%;
+  border-radius: 10%;
 }
 .Image {
-  border: 100px;
   color: #000;
 }
 .Title {
   color: rgb(222, 44, 17);
+}
+.Image {
+  border-radius: 40px;
 }
