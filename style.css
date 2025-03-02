@@ -1,1 +1,36 @@
-.cards
+.card {
+  background: gray;
+  width: 220px;
+
+  margin: 10px;
+  border-radius: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-image {
+  background-color: aqua;
+  height: 260px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.img-1 {
+  background-image: url("./candy.jpg");
+}
+.img-2 {
+  background-image: url(Walmart-Bakery-shutterstock-4x3-2-6d103311249d49379324e18d33972c16.jpg);
+}
+.img-3 {
+  background-image: url(./Walmart-shopping-cart-25-dollars-groceries.jpg);
+}
+.img-4 {
+  background-image: url(./images.jpeg);
+}
+.img-5 {
+  background-image: url(./images-2.jpeg);
+}
+.img-6 {
+  background-image: url(./card-image);
+}
