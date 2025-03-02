@@ -5,13 +5,15 @@
 .card {
   background: gray;
   width: 220px;
-  height: 400px;
+
   margin: 10px;
+  border-radius: 15px;
 }
 .card-image {
   background-color: aqua;
   height: 260px;
   background-size: cover;
+  border-radius: 15px 15px 0 0;
 }
 .img-1 {
   background-image: url(candy.jpg);
@@ -21,4 +23,7 @@
 }
 .img-3 {
   background-image: url(walmart.jpg.webp);
+}
+.card p {
+  padding: 10px;
 }
