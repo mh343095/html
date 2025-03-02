@@ -8,3 +8,16 @@
   height: 400px;
   margin: 10px;
 }
+.card-image {
+  background-color: aqua;
+  height: 260px;
+}
+.img-1 {
+  background-image: url(candy.jpg);
+}
+.img-2 {
+  background-image: url(Walmart-Bakery-shutterstock-4x3-2-6d103311249d49379324e18d33972c16.jpg);
+}
+.img-3 {
+  background-image: url(walmart.jpg.webp);
+}
