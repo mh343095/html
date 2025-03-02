@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .card {
   background: gray;
@@ -30,4 +31,5 @@
 .card a {
   background-color: black;
   color: white;
+  padding: 10px 8px;
 }
