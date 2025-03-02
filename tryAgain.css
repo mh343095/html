@@ -11,6 +11,7 @@
 .card-image {
   background-color: aqua;
   height: 260px;
+  background-size: cover;
 }
 .img-1 {
   background-image: url(candy.jpg);
