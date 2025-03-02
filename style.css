@@ -17,7 +17,7 @@
   border-radius: 15px 15px 0 0;
 }
 .img-1 {
-  background-image: url("./candy.jpg");
+  background-image: url(./candy.jpg);
 }
 .img-2 {
   background-image: url(Walmart-Bakery-shutterstock-4x3-2-6d103311249d49379324e18d33972c16.jpg);
@@ -32,5 +32,5 @@
   background-image: url(./images-2.jpeg);
 }
 .img-6 {
-  background-image: url(./card-image);
+  background-image: url(./images\ copy.jpeg);
 }
