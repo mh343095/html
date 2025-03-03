@@ -9,6 +9,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 325px 325px 325px;
 }
 .card-image {
   background-color: aqua;
@@ -40,6 +42,3 @@
 .about {
   float: left;
 }
-/* .image {
-  float: right;
-} */
