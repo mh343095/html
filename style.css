@@ -1,16 +1,17 @@
 .card {
-  background: gray;
-  width: 300px;
+  background: rgb(252, 242, 242);
+  width: 250px;
 
   margin: 10px;
   border-radius: 15px;
 }
 .container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 325px 325px 325px;
 }
 .card-image {
   background-color: aqua;
@@ -37,8 +38,28 @@
   background-image: url(./images\ copy.jpeg);
 }
 .best {
-  text-align: center;
+  text-align: center5;
 }
-.about {
+/* .about {
   float: left;
+} */
+.get {
+  border: 2px solid red;
+}
+.read {
+  border: 2px solid red;
+}
+.sir {
+  border: 2px solid red;
+}
+.message {
+  border: 2px solid red;
+}
+
+.checkout {
+  border: 2px solid red;
+}
+
+.text {
+  text-align: center;
 }
