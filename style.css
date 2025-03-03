@@ -1,6 +1,6 @@
 .card {
   background: gray;
-  width: 220px;
+  width: 300px;
 
   margin: 10px;
   border-radius: 15px;
@@ -34,3 +34,12 @@
 .img-6 {
   background-image: url(./images\ copy.jpeg);
 }
+.best {
+  text-align: center;
+}
+.about {
+  float: left;
+}
+/* .image {
+  float: right;
+} */
