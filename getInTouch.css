@@ -1,15 +1,26 @@
 .contact-contanire {
   background-color: rgb(146, 149, 151);
 }
+.get-in {
+  display: flex;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-display: ;
+}
 .card-content {
   background-color: rgb(183, 244, 226);
   display: flex;
-  justify-content: left;
+  justify-content: center;
   justify-items: stretch;
   border: 3px solid;
   border-radius: 5px;
 }
 .card-item {
   display: grid;
-  grid-template-columns: 180px;
+  grid-template-rows: 70px 70px 70px 70px 70px;
+  width: 50%;
+}
+.card-name {
+  display: grid;
+  grid-template-rows: 70px;
 }
