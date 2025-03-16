@@ -3,28 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-.contact-contanire {
-  background-color: rgb(146, 149, 151);
-}
-.get-in {
-  display: flex;
+.container {
+  background-color: aqua;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-}
-.card-content {
-  background-color: rgb(183, 244, 226);
-  display: flex;
-  justify-content: center;
-  justify-items: stretch;
-  border: 3px solid;
-  border-radius: 5px;
-}
-.card-item {
-  display: grid;
-  grid-template-rows: 70px 70px 70px 70px 70px;
-  width: 50%;
-}
-.card-name {
-  display: grid;
-  grid-template-rows: 70px;
+  margin: 40px;
+  min-height: 100vh;
 }
