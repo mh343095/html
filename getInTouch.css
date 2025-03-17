@@ -3,10 +3,63 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container {
+.contact {
   background-color: aqua;
   text-align: center;
   margin: 40px;
   min-height: 100vh;
 }
-.container
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+.contact-wrapper {
+  display: grid;
+
+  /* grid-template-columns: repeat(1); */
+  grid-gap: 30px;
+}
+.contact-form {
+  text-align: left;
+}
+.contect-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  /* border: none; */
+  background-color: #f8f9fa;
+  color: #333;
+}
+/* input: focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px #abbb;
+} */
+button {
+  display: inline-block;
+  padding: 18px 23px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 8px;
+  /* border: none; */
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+button:hover {
+  background-color: #0b5a0f;
+}
