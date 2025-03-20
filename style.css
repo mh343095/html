@@ -78,6 +78,7 @@
   text-align: center;
   margin: 40px;
   min-height: 100vh;
+  margin: 0px;
 }
 .container {
   max-width: 900px;
@@ -135,4 +136,13 @@ button:hover {
 }
 .name1 {
   text-align: left;
+}
+.contact-info a {
+  padding: 40px;
+}
+.submit {
+  font-size: 24px;
+}
+.wal a {
+  margin-right: 50px;
 }
