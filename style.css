@@ -133,3 +133,6 @@ button {
 button:hover {
   background-color: #0b5a0f;
 }
+.name1 {
+  text-align: left;
+}
