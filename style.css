@@ -58,6 +58,11 @@
 }
 .read {
   border: 2px solid red;
+  height: 30px;
+  width: auto;
+  text-align: top;
+  padding: 10px;
+  background-size: cover;
 }
 .sir {
   border: 2px solid red;
@@ -155,4 +160,14 @@ button:hover {
 }
 a {
   margin-right: 55px;
+}
+#myClient {
+  background-color: #4caf50;
+}
+#ali {
+  background-color: rgb(45, 117, 179);
+  font-size: x-large;
+}
+.aliSays {
+  text-align: center;
 }
