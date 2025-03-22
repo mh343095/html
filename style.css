@@ -12,7 +12,7 @@
 }
 .container {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 100px 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -152,7 +152,7 @@ button:hover {
 .nav {
   height: 50px;
   margin-right: 50px;
-
+  background-color: #c5c2c2;
   text-wrap: nowrap;
 }
 .wal {
@@ -170,4 +170,10 @@ a {
 }
 .aliSays {
   text-align: center;
+}
+ali + aliSays {
+  background-color: beige;
+}
+.Ali {
+  background-color: aquamarine;
 }
