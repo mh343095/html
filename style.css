@@ -55,6 +55,8 @@
   text-align: top;
   padding: 10px;
   background-size: cover;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .read {
   border: 2px solid red;
@@ -150,8 +152,8 @@ button:hover {
   font-size: 24px;
 }
 .nav {
-  height: 50px;
-  margin-right: 50px;
+  height: 40px;
+  margin-right: 0%;
   background-color: #c5c2c2;
   text-wrap: nowrap;
 }
@@ -170,10 +172,33 @@ a {
 }
 .aliSays {
   text-align: center;
+  background-color: #e6a6a6;
 }
 ali + aliSays {
   background-color: beige;
 }
-.Ali {
+ {
   background-color: aquamarine;
+}
+.Muhammad {
+  background-color: rgb(255, 208, 127);
+}
+.Khan {
+  background-color: rgb(208, 210, 69);
+}
+#muhammad {
+  background-color: rgb(45, 117, 179);
+  font-size: x-large;
+  text-align: center;
+}
+#khan {
+  background-color: rgb(45, 117, 179);
+  font-size: x-large;
+  text-align: center;
+}
+.muhammadSays {
+  text-align: center;
+}
+.khanSays {
+  text-align: center;
 }
