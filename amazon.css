@@ -24,8 +24,13 @@ text-align: center;
 }
 .logo {
   background-image: url("logo.png");
-  
   background-size: cover;
   height: 50px;
-  width: 120px;
+  width: 100px;
+}
+.border{
+  border: 2px solid transparent;
+}
+.border:hover{
+  border: 2px solid white
 }
